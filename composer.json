@@ -1,0 +1,19 @@
+{
+  "name": "itarato/micmod",
+  "require": {
+    "psr/log": "1.0.0"
+  },
+  "require-dev": {
+  },
+  "authors": [
+    {
+      "name": "Peter Arato",
+      "email": "it.arato@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Micmod\\": "src/"
+    }
+  }
+}
