@@ -24,8 +24,6 @@ Usage - with Drupal
 First you either create a model or add the base class to an existing model. The pure 
 
 ```php
-<?php
-
 /**
  * @table micmod
  */
