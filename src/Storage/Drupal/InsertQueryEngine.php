@@ -5,7 +5,7 @@
 
 namespace Micmod\Storage\Drupal;
 
-class InsertQueryEngine extends \Micmod\Storage\InsertQueryEngine {
+class InsertQueryEngine implements \Micmod\Storage\InsertQueryEngine {
 
   /**
    * @var \InsertQuery

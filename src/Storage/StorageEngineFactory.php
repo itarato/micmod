@@ -12,4 +12,19 @@ interface StorageEngineFactory {
    */
   public function getInsertQuery();
 
+  /**
+   * @return SelectQueryEngine
+   */
+  public function getSelectQuery();
+
+  /**
+   * @return UpdateQueryEngine
+   */
+  public function getUpdateQuery();
+
+  /**
+   * @return DeleteQueryEngine
+   */
+  public function getDeleteQuery();
+
 }

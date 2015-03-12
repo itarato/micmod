@@ -5,8 +5,10 @@
 
 namespace Micmod\Storage;
 
-interface InsertQueryEngine extends QueryEngine {
+interface UpdateQueryEngine extends QueryEngine {
 
   public function setFieldValue($column, $value);
+
+  public function setCondition($column, $value);
 
 }
