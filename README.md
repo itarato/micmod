@@ -11,7 +11,11 @@ Here a *model* should be as pure as possible. Because of annotations it can clea
 Install
 -------
 
-Add the composer package as a dependency (package info is coming soon).
+Add the composer package as a dependency:
+
+```
+require: {"itarato/micmod": "dev-master"}
+```
 
 
 Usage - with Drupal
