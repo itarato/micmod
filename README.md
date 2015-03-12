@@ -117,7 +117,8 @@ Marks a property a primary key. There has to be one primary key at least, but th
 
 Tag: 'primary-key'
 
-Example:
+Example
+
 ```php
 /**
  * @column COLUMN_NAME
