@@ -1,6 +1,8 @@
 Micro Model Layer
 =================
 
+[![Build Status](https://travis-ci.org/itarato/micmod.png?branch=master)](https://travis-ci.org/itarato/micmod)
+
 Micro model layer is micro-library to provide convenient CRUD operations for models. It's using annotations to mark properties as part of the storage and there is an extensible storage api to handle persistence.
 
 At the moment a Drupal 7 storage implementation is implemented in the library.
